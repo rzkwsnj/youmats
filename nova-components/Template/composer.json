@@ -1,0 +1,29 @@
+{
+    "name": "zakariatlilani/template",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "zakariatlilani\\template\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "zakariatlilani\\template\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,18 @@
+.nav-languages{
+    float: right;
+    border-bottom: 0;
+    display: inline;
+}
+.nav-languages a{
+    color: #7C858E;
+    font-size: .875rem;
+    margin-left: .75rem;
+    font-weight: 800;
+    padding: 0;
+    display: inline-block;
+    border: 0;
+}
+.nav-languages a.active {
+    color: #4099DE;
+    border-bottom: 2px solid #4099DE;
+}

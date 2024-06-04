@@ -1,0 +1,27 @@
+.card-youmats {
+    background: #4099DE !important;
+    color: #FFF;
+}
+.btn-youmats {
+    background-color: #4099DE;
+    border-color: #4099DE;
+    color: #FFF;
+    box-shadow: none;
+}
+.btn-youmats:hover {
+    color: #FFF;
+}
+.absolute-image {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    color: #d9534f;
+    cursor: pointer;
+}
+tbody {
+    text-align: center;
+}
+.select2-container .select2-search--inline .select2-search__field{
+    height: 30px !important;
+}

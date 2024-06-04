@@ -1,0 +1,35 @@
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+    right: 0px;
+    top: 6px;
+}
+
+.custom-switch .custom-control-label::after {
+    right: -20px;
+    top: 6px;
+}
+.choose_city{
+
+}
+
+.custom-control.custom-switch{
+    width: auto;
+}
+.custom-switch{
+    margin: 0 0 0 10px;
+}
+
+.change_city_modal .modal-dialog{
+    direction: rtl;
+}
+
+.change_city_modal .modal-dialog .modal-footer > :not(:last-child) {
+    margin-left: .25rem;
+}
+
+#Description ul {
+    direction: rtl;
+    text-align: right;
+}
+.tit--custom--label {
+    width: 90px;
+}

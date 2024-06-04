@@ -1,0 +1,156 @@
+html,body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  /*background: url("../img/bg.png") no-repeat top center;*/
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+
+#title{
+  font-family: 'Roboto';
+  font-size: 60px;
+  color: #e0e0e0;
+  position: absolute;
+  left: 10%;
+  top:10%;
+  transform-origin: bottom left;
+}
+
+.card-bounding{
+  /*
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+  padding: 30px;
+  border: 1px solid #3e73ea;
+  border-radius: 6px;
+
+  background: #ffffff;
+  */
+
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  width: 100%;
+  background: rgba(225,225,225,0.35);
+  padding: 30px;
+  border-radius: 25px;
+  font-family: 'Roboto';
+
+
+
+
+}
+
+.card-bounding aside{
+  font-size:24px;
+  padding-bottom: 8px;
+}
+.card-container {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  box-sizing: border-box;
+  border: 2px solid #9e9e9e;
+  margin: 0 auto 30px auto;
+
+
+}
+.card-container input {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 30px;
+  padding: 15px 15px 15px 25px;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: rgba(225, 225, 225, 0.568);
+}
+.card-type {
+  width: 80px;
+  height: 50px;
+  background: url(../img/Finalcards.png);
+  background-position: -1px -231px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -4px;
+  left: -400px;
+  transform: translateX(+500%);
+}
+.card-type.mastercard {
+  background-position: 0 0;
+}
+.card-type.visa {
+
+  background-position: 0 -114px;
+
+}
+.card-type.amex {
+  background-position: 0 -57px;
+}
+.card-type.mada {
+  background-position: 0 -172px;
+}
+.card-valid {
+  position: absolute;
+  top: -6px;
+  right: 150px;
+  line-height: 60px;
+  font-size: 40px;
+  font-family: 'icons';
+  color: #ccc;
+  transform: translateX(-230%);
+}
+.card-valid.active {
+  color: #42ca7c;
+}
+.card-details {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 30px;
+  transition: 300ms ease;
+}
+.card-details input {
+  font-size: 30px;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  background: rgba(225, 225, 225, 0.568);
+}
+.card-details input.error {
+  border: 1px solid #c2313c;
+  box-shadow: 0 4px 8px 0 rgba(238,76,87,0.3);
+  outline: none;
+}
+.card-details .expiration {
+  width: 50%;
+  float: left;
+  padding-right: 5%;
+
+}
+.card-details .cvv {
+  width: 45%;
+  float: left;
+}

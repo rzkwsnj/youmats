@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "build-template-title": "cd nova-components/TemplateTitle && npm run dev",
+        "build-template-title-prod": "cd nova-components/TemplateTitle && npm run prod",
+        "build-title-template": "cd nova-components/TitleTemplate && npm run dev",
+        "build-title-template-prod": "cd nova-components/TitleTemplate && npm run prod",
+        "build-generate-products": "cd nova-components/GenerateProducts && npm run dev",
+        "build-generate-products-prod": "cd nova-components/GenerateProducts && npm run prod",
+        "build-template": "cd nova-components/Template && npm run dev",
+        "build-template-prod": "cd nova-components/Template && npm run prod",
+        "build-Sluggable": "cd nova-components/Sluggable && npm run dev",
+        "build-Sluggable-prod": "cd nova-components/Sluggable && npm run prod"
+    },
+    "devDependencies": {
+        "axios": "^1.6.7",
+        "cross-env": "^7.0",
+        "laravel-mix": "^6.0.49",
+        "lodash": "^4.17.19",
+        "resolve-url-loader": "^5.0.0",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "ioredis": "^4.25.0",
+        "laravel-echo": "^1.11.2",
+        "pusher-js": "^7.0.3",
+        "socket.io": "^4.0.1",
+        "source-map-url": "^0.4.1"
+    }
+}

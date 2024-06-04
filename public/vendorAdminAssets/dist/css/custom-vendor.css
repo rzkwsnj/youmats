@@ -1,0 +1,55 @@
+.card-youmats {
+    background: #4099DE !important;
+    color: #FFF;
+}
+.btn-youmats {
+    background-color: #4099DE;
+    border-color: #4099DE;
+    color: #FFF;
+    box-shadow: none;
+}
+.btn-youmats:hover {
+    color: #FFF;
+}
+/*.card-body {*/
+/*    padding-left: 3rem;*/
+/*    padding-right: 3rem;*/
+/*}*/
+/*.container-fluid {*/
+/*    padding-right: 60px;*/
+/*    padding-left: 60px;*/
+/*}*/
+/*.form-group {*/
+/*    margin-bottom: 2rem;*/
+/*    padding-left: 2rem;*/
+/*    padding-right: 2rem;*/
+/*}*/
+.absolute-image {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    color: #d9534f;
+    cursor: pointer;
+}
+.nav-languages{
+    float: right;
+    border-bottom: 0;
+    display: inline;
+}
+.nav-languages a{
+    color: #7C858E;
+    font-size: .875rem;
+    margin-left: .75rem;
+    font-weight: 800;
+    padding: 0;
+    display: inline-block;
+    border: 0;
+}
+.nav-languages a.active {
+    color: #4099DE;
+    border-bottom: 2px solid #4099DE;
+}
+tbody {
+    text-align: center;
+}
